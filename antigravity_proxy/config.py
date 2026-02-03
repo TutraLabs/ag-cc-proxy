@@ -1,4 +1,4 @@
-"""
+sss
 Antigravity Claude Proxy - Configuration Module
 
 Contains all constants, custom exceptions, helper functions, and logging.
@@ -53,7 +53,7 @@ def get_platform_user_agent() -> str:
     """
     os_name = platform.system().lower()
     architecture = platform.machine().lower()
-    return f"antigravity/1.11.5 {os_name}/{architecture}"
+    return f"antigravity/1.15.8 {os_name}/{architecture}"
 
 
 def get_account_config_path() -> Path:
